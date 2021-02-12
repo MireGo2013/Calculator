@@ -1,0 +1,22 @@
+.btn-all {
+	text-align: center;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	padding-top: 7px;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+.btn-all:hover {
+	cursor: pointer;
+	color: rgb(196, 53, 28);
+	border: 1px solid rgb(196, 53, 28);
+}
+.multiplication-btn {
+	padding-top: 10px;
+}
+.result-btn {
+	padding-top: 27px;
+}
+.number-point {
+	padding-top: 12px;
+}
