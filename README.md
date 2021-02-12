@@ -1,1 +1,1 @@
-[my calculator] (https://mirego2013.github.io/Calculator/)
+[my calculator](https://mirego2013.github.io/Calculator/)
