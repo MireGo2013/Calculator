@@ -6,29 +6,40 @@
 	font-size: 2rem;
 	border-radius: 5px;
 }
-.btn-all:hover {
+
+.btn-all:active {
+	position: relative;
+	top: 1px;
+}
+
+.btn-operation:hover,
+.btn-desimal:hover {
 	cursor: pointer;
-	color: rgb(73, 28, 196);
 	border: 1px solid rgb(73, 28, 196);
+	transition-duration: 0.4s;
+	background-color: rgb(73, 28, 196);
 }
 
 .btn-num:hover {
 	cursor: pointer;
-	color: rgb(196, 53, 28);
 	border: 1px solid rgb(196, 53, 28);
+	background-color: rgb(196, 53, 28);
+	transition-duration: 0.4s;
 }
 
 .CE-btn:hover,
 .C-btn:hover {
 	cursor: pointer;
-	color: rgb(6, 63, 9);
 	border: 1px solid rgb(6, 63, 9);
+	background-color: rgb(6, 63, 9);
+	transition-duration: 0.4s;
 }
 
 .result-btn:hover {
 	cursor: pointer;
-	color: rgb(216, 133, 24);
 	border: 1px solid rgb(216, 133, 24);
+	background-color: rgb(216, 133, 24);
+	transition-duration: 0.4s;
 }
 
 .multiplication-btn {

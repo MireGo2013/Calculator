@@ -90,29 +90,43 @@ body {
   border-radius: 5px;
 }
 
-.btn-all:hover {
+.btn-all:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-operation:hover,
+.btn-desimal:hover {
   cursor: pointer;
-  color: #491cc4;
   border: 1px solid #491cc4;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  background-color: #491cc4;
 }
 
 .btn-num:hover {
   cursor: pointer;
-  color: #c4351c;
   border: 1px solid #c4351c;
+  background-color: #c4351c;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .CE-btn:hover,
 .C-btn:hover {
   cursor: pointer;
-  color: #063f09;
   border: 1px solid #063f09;
+  background-color: #063f09;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .result-btn:hover {
   cursor: pointer;
-  color: #d88518;
   border: 1px solid #d88518;
+  background-color: #d88518;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .multiplication-btn {
