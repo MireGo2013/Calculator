@@ -8,9 +8,29 @@
 }
 .btn-all:hover {
 	cursor: pointer;
+	color: rgb(73, 28, 196);
+	border: 1px solid rgb(73, 28, 196);
+}
+
+.btn-num:hover {
+	cursor: pointer;
 	color: rgb(196, 53, 28);
 	border: 1px solid rgb(196, 53, 28);
 }
+
+.CE-btn:hover,
+.C-btn:hover {
+	cursor: pointer;
+	color: rgb(6, 63, 9);
+	border: 1px solid rgb(6, 63, 9);
+}
+
+.result-btn:hover {
+	cursor: pointer;
+	color: rgb(216, 133, 24);
+	border: 1px solid rgb(216, 133, 24);
+}
+
 .multiplication-btn {
 	padding-top: 10px;
 }
